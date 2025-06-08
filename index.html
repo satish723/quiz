@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="config-title">quiz configuration</h1>
+        <div class="config-options">
+            <h4 class="option-title">select option</h4> 
+            <div class="category-options">
+                <button class="category-option active">programming</button>
+                <button class="category-option">geography</button>
+                <button class="category-option">mathematics</button>
+                <button class="category-option">Entertainment</button>
+            </div>
+        </div>
+        <div class="config-options">
+            <h4 class="option-title">select no.of questions</h4> 
+            <div class="question-options">
+                <button class="question-option">5</button>
+                <button class="question-option active">10</button>
+                <button class="question-option">15</button>
+                <button class="question-option">20</button>
+                <button class="question-option">25</button>
+            </div>
+        </div>
+        <button class="start-quiz-button">Start Quiz</button>
+    </div>
+    <div class="quiz-container">
+        <header class="header-ele">
+            <h2 class="quiz-title">Quiz application</h2>
+            <div class="quiz-timer">
+                <span class="material-symbols-outlined">timer</span>
+                <p class="time">15s</p>
+            </div>
+        </header>
+        <div class="quiz-content">
+            <h1 class="question"></h1>
+            <ul class="answer-options">
+                
+            </ul>
+        </div>
+        <div class="quiz-footer">
+            <p class="question-status"><b>2</b> of <b>5</b> questions</p>
+            <button class="next-question-btn">Next
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+            </button>
+        </div>
+    </div>
+    <div class="result-container">
+        <img src="quiz-over.png" class="result-img">
+        <p class="result-message"> </p>
+        <button class="try-again-btn">Try-Again</button>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
