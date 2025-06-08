@@ -304,7 +304,7 @@ const questions = [
       {
         question: "What is 11²?",
         options: ["121", "131", "141", "111"],
-        correctAnswer: 3,
+        correctAnswer: 0,
       },
       {
         question: "What is 9 × 12?",
@@ -329,12 +329,12 @@ const questions = [
       {
         question: "What is the value of 10 ÷ 2 + 3?",
         options: ["8", "7", "9", "6"],
-        correctAnswer: 1,
+        correctAnswer: 0,
       },
       {
         question: "What is 3 × 7 + 2?",
         options: ["20", "21", "22", "23"],
-        correctAnswer: 1,
+        correctAnswer: 3,
       },
       {
         question: "What is the greatest common divisor (GCD) of 24 and 36?",
@@ -349,12 +349,12 @@ const questions = [
       {
         question: "What is the value of 2³ × 3?",
         options: ["12", "15", "18", "24"],
-        correctAnswer: 0,
+        correctAnswer: 3,
       },
       {
         question: "What is the value of 10 × (5 + 3)?",
         options: ["80", "70", "60", "50"],
-        correctAnswer: 1,
+        correctAnswer: 0,
       },
       {
         question: "What is the value of 14 × 14?",
@@ -379,7 +379,7 @@ const questions = [
       {
         question: "What is the value of (8 + 2) × 3?",
         options: ["30", "32", "34", "28"],
-        correctAnswer: 3,
+        correctAnswer: 0,
       },
       {
         question: "What is the value of 50% of 80?",
